@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color:#17d;
+    position: relative;
+    height: 100vh;
+}
+
+.digitalclock{
+    text-shadow: 10px 10px 10px #17d;
+    font-size: 64px;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
